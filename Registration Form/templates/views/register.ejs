@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include('../partials/nav.ejs') -%>
+
+    <form action="/register" method="post">
+        <input type="text" placeholder="first name" name="firstname"><br>
+        <input type="text" placeholder="last name" name="lastname"><br>
+        <input type="email" placeholder="your email" name="email"><br>
+        <input type="tel" placeholder="your phone" name="phone"><br>
+        <input type="number" placeholder="age" name="age"><br>
+        <input type="password" placeholder="password" name="password"><br>
+
+        <input type="password" placeholder="confirm password" name="confirmpassword"><br>
+        <input type="radio" name="gender" value="male">male <br>
+        <input type="radio" name="gender" value="female">female <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
