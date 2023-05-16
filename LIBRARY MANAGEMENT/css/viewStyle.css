@@ -1,0 +1,9 @@
+#viewtable
+{
+	border:maroon solid 5px;
+	width:500px;
+}
+#viewtable tr
+{
+	background-color:pink;
+}
